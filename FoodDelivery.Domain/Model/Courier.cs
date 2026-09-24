@@ -10,7 +10,7 @@ public class Courier
     /// <summary>
     /// Идентификатор курьера
     /// </summary>
-    public required int Id { get; set; }
+    public int Id { get; set; }
 
     /// <summary>
     /// ФИО курьера

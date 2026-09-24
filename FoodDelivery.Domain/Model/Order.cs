@@ -10,12 +10,12 @@ public class Order
     /// <summary>
     /// Идентификатор заказа
     /// </summary>
-    public required int Id { get; set; }
+    public int Id { get; set; }
 
     /// <summary>
     /// Дата и время оформления заказа
     /// </summary>
-    public required DateTime CreatedAt { get; set; }
+    public DateTime CreatedAt { get; set; } = DateTime.Now;
 
     /// <summary>
     /// Адрес доставки
@@ -25,7 +25,7 @@ public class Order
     /// <summary>
     /// Статус заказа
     /// </summary>
-    public required OrderStatus Status { get; set; }
+    public OrderStatus Status { get; set; } = OrderStatus.Created;
 
     /// <summary>
     /// Способ оплаты
@@ -37,20 +37,29 @@ public class Order
     /// </summary>
     public required decimal DeliveryFee { get; set; }
 
-    public required int CustomerId { get; set; }
+    /// <summary>
+    /// Идентификатор клиента оформившего заказ
+    /// </summary>
+    public int CustomerId { get; set; }
 
     /// <summary>
     /// Клиент оформивший заказ
     /// </summary>
     public Customer? Customer { get; set; }
 
-    public required int RestaurantId { get; set; }
+    /// <summary>
+    /// Идентификатор ресторана в котором оформлен заказ
+    /// </summary>
+    public int RestaurantId { get; set; }
 
     /// <summary>
     /// Ресторан в котором оформлен заказ
     /// </summary>
     public Restaurant? Restaurant { get; set; }
 
+    /// <summary>
+    /// Идентификатор курьера доставляющего заказ
+    /// </summary>
     public int? CourierId { get; set; }
 
     /// <summary>
@@ -66,5 +75,5 @@ public class Order
     /// <summary>
     /// Стоимость заказа
     /// </summary>
-    public decimal Total => Items.Sum(item => item.Quantity * item.UnitPrice) + DeliveryFee;
+    public decimal Total => Items.Sum(item => item.Quantity * item.Price) + DeliveryFee;
 }

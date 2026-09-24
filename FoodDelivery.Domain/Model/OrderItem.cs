@@ -8,7 +8,7 @@ public class OrderItem
     /// <summary>
     /// Идентификатор блюда
     /// </summary>
-    public required int Id { get; set; }
+    public int Id { get; set; }
 
     /// <summary>
     /// Количество единиц блюда
@@ -18,12 +18,12 @@ public class OrderItem
     /// <summary>
     /// Цена блюда
     /// </summary>
-    public required decimal UnitPrice { get; set; }
+    public required decimal Price { get; set; }
 
     /// <summary>
     /// Идентификатор заказа с блюдом
     /// </summary>
-    public required int OrderId { get; set; }
+    public int OrderId { get; set; }
 
     /// <summary>
     /// Заказ которому принадлежит блюдо
@@ -33,7 +33,7 @@ public class OrderItem
     /// <summary>
     /// Идентификатор блюда из меню
     /// </summary>
-    public required int DishId { get; set; }
+    public int DishId { get; set; }
 
     /// <summary>
     /// Заказанное блюдо

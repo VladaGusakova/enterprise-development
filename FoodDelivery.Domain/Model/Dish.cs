@@ -8,7 +8,7 @@ public class Dish
     /// <summary>
     /// Идентификатор блюда
     /// </summary>
-    public required int Id { get; set; }
+    public int Id { get; set; }
 
     /// <summary>
     /// Название блюда
@@ -23,7 +23,7 @@ public class Dish
     /// <summary>
     /// Идентификатор ресторана которому принадлежит блюдо
     /// </summary>
-    public required int RestaurantId { get; set; }
+    public int RestaurantId { get; set; }
 
     /// <summary>
     /// Ресторан которому принадлежит блюдо
