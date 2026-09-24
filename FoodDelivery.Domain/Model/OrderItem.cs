@@ -18,7 +18,7 @@ public class OrderItem
     /// <summary>
     /// Цена блюда
     /// </summary>
-    public required decimal Price { get; set; }
+    public required decimal UnitPrice { get; set; }
 
     /// <summary>
     /// Идентификатор заказа с блюдом
