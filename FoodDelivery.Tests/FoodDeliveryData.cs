@@ -1,10 +1,10 @@
-using FoodDelivery.Domain.Model;
+п»їusing FoodDelivery.Domain.Model;
 using FoodDelivery.Domain.Shared.Enums;
 
 namespace FoodDelivery.Tests;
 
 /// <summary>
-/// Тестовый набор данных службы доставки еды
+/// РўРµСЃС‚РѕРІС‹Р№ РЅР°Р±РѕСЂ РґР°РЅРЅС‹С… СЃР»СѓР¶Р±С‹ РґРѕСЃС‚Р°РІРєРё РµРґС‹
 /// </summary>
 public static class FoodDeliveryData
 {
@@ -19,58 +19,58 @@ public static class FoodDeliveryData
     {
         Customers =
         [
-            new Customer { Id = 1, FullName = "Иванов А.", PhoneNumber = "+79170000001", Address = "ул. Ленина 1" },
-            new Customer { Id = 2, FullName = "Иванов Б.", PhoneNumber = "+79170000002", Address = "ул. Ленина 2" },
-            new Customer { Id = 3, FullName = "Иванов В.", PhoneNumber = "+79170000003", Address = "ул. Ленина 3" },
-            new Customer { Id = 4, FullName = "Иванов Г.", PhoneNumber = "+79170000004", Address = "ул. Ленина 4" },
-            new Customer { Id = 5, FullName = "Иванов Д.", PhoneNumber = "+79170000005", Address = "ул. Ленина 5" },
-            new Customer { Id = 6, FullName = "Иванов Е.", PhoneNumber = "+79170000006", Address = "ул. Ленина 6" },
-            new Customer { Id = 7, FullName = "Иванов Ё.", PhoneNumber = "+79170000007", Address = "ул. Ленина 7" },
-            new Customer { Id = 8, FullName = "Иванов Ж.", PhoneNumber = "+79170000008", Address = "ул. Ленина 8" },
-            new Customer { Id = 9, FullName = "Иванов З.", PhoneNumber = "+79170000009", Address = "ул. Ленина 9" },
-            new Customer { Id = 10, FullName = "Иванов И.", PhoneNumber = "+79170000010", Address = "ул. Ленина 10" }
+            new Customer { Id = 1, FullName = "РРІР°РЅРѕРІ Рђ.", PhoneNumber = "+79170000001", Address = "СѓР». Р›РµРЅРёРЅР° 1" },
+            new Customer { Id = 2, FullName = "РРІР°РЅРѕРІ Р‘.", PhoneNumber = "+79170000002", Address = "СѓР». Р›РµРЅРёРЅР° 2" },
+            new Customer { Id = 3, FullName = "РРІР°РЅРѕРІ Р’.", PhoneNumber = "+79170000003", Address = "СѓР». Р›РµРЅРёРЅР° 3" },
+            new Customer { Id = 4, FullName = "РРІР°РЅРѕРІ Р“.", PhoneNumber = "+79170000004", Address = "СѓР». Р›РµРЅРёРЅР° 4" },
+            new Customer { Id = 5, FullName = "РРІР°РЅРѕРІ Р”.", PhoneNumber = "+79170000005", Address = "СѓР». Р›РµРЅРёРЅР° 5" },
+            new Customer { Id = 6, FullName = "РРІР°РЅРѕРІ Р•.", PhoneNumber = "+79170000006", Address = "СѓР». Р›РµРЅРёРЅР° 6" },
+            new Customer { Id = 7, FullName = "РРІР°РЅРѕРІ РЃ.", PhoneNumber = "+79170000007", Address = "СѓР». Р›РµРЅРёРЅР° 7" },
+            new Customer { Id = 8, FullName = "РРІР°РЅРѕРІ Р–.", PhoneNumber = "+79170000008", Address = "СѓР». Р›РµРЅРёРЅР° 8" },
+            new Customer { Id = 9, FullName = "РРІР°РЅРѕРІ Р—.", PhoneNumber = "+79170000009", Address = "СѓР». Р›РµРЅРёРЅР° 9" },
+            new Customer { Id = 10, FullName = "РРІР°РЅРѕРІ Р.", PhoneNumber = "+79170000010", Address = "СѓР». Р›РµРЅРёРЅР° 10" }
         ];
 
         Restaurants =
         [
-            new Restaurant { Id = 1, Name = "Пиццерия Pizza Tower", Address = "ул. Мира 25" },
-            new Restaurant { Id = 2, Name = "Суши-бар DANGANRONPA", Address = "ул. Мира 100" },
-            new Restaurant { Id = 3, Name = "Бургерная Machine Party", Address = "ул. Мира 3" },
-            new Restaurant { Id = 4, Name = "Кафе YAPYAP", Address = "ул. Мира 40" },
-            new Restaurant { Id = 5, Name = "Кофейня Leblanc", Address = "ул. Мира 7" },
-            new Restaurant { Id = 6, Name = "Бургерная REPO", Address = "ул. Мира 2" },
-            new Restaurant { Id = 7, Name = "Чайхана ZAVOD", Address = "ул. Мира 15" },
-            new Restaurant { Id = 8, Name = "Пиццерия Noita", Address = "ул. Мира 33" },
-            new Restaurant { Id = 9, Name = "Пельменная Ъ", Address = "ул. Мира 21" },
-            new Restaurant { Id = 10, Name = "Блинная Sandrock", Address = "ул. Мира 8" }
+            new Restaurant { Id = 1, Name = "РџРёС†С†РµСЂРёСЏ Pizza Tower", Address = "СѓР». РњРёСЂР° 25" },
+            new Restaurant { Id = 2, Name = "РЎСѓС€Рё-Р±Р°СЂ DANGANRONPA", Address = "СѓР». РњРёСЂР° 100" },
+            new Restaurant { Id = 3, Name = "Р‘СѓСЂРіРµСЂРЅР°СЏ Machine Party", Address = "СѓР». РњРёСЂР° 3" },
+            new Restaurant { Id = 4, Name = "РљР°С„Рµ YAPYAP", Address = "СѓР». РњРёСЂР° 40" },
+            new Restaurant { Id = 5, Name = "РљРѕС„РµР№РЅСЏ Leblanc", Address = "СѓР». РњРёСЂР° 7" },
+            new Restaurant { Id = 6, Name = "Р‘СѓСЂРіРµСЂРЅР°СЏ REPO", Address = "СѓР». РњРёСЂР° 2" },
+            new Restaurant { Id = 7, Name = "Р§Р°Р№С…Р°РЅР° ZAVOD", Address = "СѓР». РњРёСЂР° 15" },
+            new Restaurant { Id = 8, Name = "РџРёС†С†РµСЂРёСЏ Noita", Address = "СѓР». РњРёСЂР° 33" },
+            new Restaurant { Id = 9, Name = "РџРµР»СЊРјРµРЅРЅР°СЏ РЄ", Address = "СѓР». РњРёСЂР° 21" },
+            new Restaurant { Id = 10, Name = "Р‘Р»РёРЅРЅР°СЏ Sandrock", Address = "СѓР». РњРёСЂР° 8" }
         ];
 
         Couriers =
         [
-            new Courier { Id = 1, FullName = "Петров А.", PhoneNumber = "+79171000001", Transport = TransportType.Bicycle },
-            new Courier { Id = 2, FullName = "Петров Б.", PhoneNumber = "+79171000002", Transport = TransportType.Car },
-            new Courier { Id = 3, FullName = "Петров В.", PhoneNumber = "+79171000003", Transport = TransportType.Foot },
-            new Courier { Id = 4, FullName = "Петров Г.", PhoneNumber = "+79171000004", Transport = TransportType.Scooter },
-            new Courier { Id = 5, FullName = "Петров Д.", PhoneNumber = "+79171000005", Transport = TransportType.Bicycle },
-            new Courier { Id = 6, FullName = "Петров Е.", PhoneNumber = "+79171000006", Transport = TransportType.Car },
-            new Courier { Id = 7, FullName = "Петров Ё.", PhoneNumber = "+79171000007", Transport = TransportType.Scooter },
-            new Courier { Id = 8, FullName = "Петров Ж.", PhoneNumber = "+79171000008", Transport = TransportType.Foot },
-            new Courier { Id = 9, FullName = "Петров З.", PhoneNumber = "+79171000009", Transport = TransportType.Bicycle },
-            new Courier { Id = 10, FullName = "Петров И.", PhoneNumber = "+79171000010", Transport = TransportType.Car }
+            new Courier { Id = 1, FullName = "РџРµС‚СЂРѕРІ Рђ.", PhoneNumber = "+79171000001", Transport = TransportType.Bicycle },
+            new Courier { Id = 2, FullName = "РџРµС‚СЂРѕРІ Р‘.", PhoneNumber = "+79171000002", Transport = TransportType.Car },
+            new Courier { Id = 3, FullName = "РџРµС‚СЂРѕРІ Р’.", PhoneNumber = "+79171000003", Transport = TransportType.Foot },
+            new Courier { Id = 4, FullName = "РџРµС‚СЂРѕРІ Р“.", PhoneNumber = "+79171000004", Transport = TransportType.Scooter },
+            new Courier { Id = 5, FullName = "РџРµС‚СЂРѕРІ Р”.", PhoneNumber = "+79171000005", Transport = TransportType.Bicycle },
+            new Courier { Id = 6, FullName = "РџРµС‚СЂРѕРІ Р•.", PhoneNumber = "+79171000006", Transport = TransportType.Car },
+            new Courier { Id = 7, FullName = "РџРµС‚СЂРѕРІ РЃ.", PhoneNumber = "+79171000007", Transport = TransportType.Scooter },
+            new Courier { Id = 8, FullName = "РџРµС‚СЂРѕРІ Р–.", PhoneNumber = "+79171000008", Transport = TransportType.Foot },
+            new Courier { Id = 9, FullName = "РџРµС‚СЂРѕРІ Р—.", PhoneNumber = "+79171000009", Transport = TransportType.Bicycle },
+            new Courier { Id = 10, FullName = "РџРµС‚СЂРѕРІ Р.", PhoneNumber = "+79171000010", Transport = TransportType.Car }
         ];
 
         Dishes =
         [
-            new Dish { Id = 1, Name = "Маргарита", Price = 450, RestaurantId = 1, Restaurant = Restaurants[0] },
-            new Dish { Id = 2, Name = "Пепперони", Price = 550, RestaurantId = 1, Restaurant = Restaurants[0] },
-            new Dish { Id = 3, Name = "Карбонара", Price = 420, RestaurantId = 1, Restaurant = Restaurants[0] },
-            new Dish { Id = 4, Name = "Филадельфия", Price = 890, RestaurantId = 2, Restaurant = Restaurants[1] },
-            new Dish { Id = 5, Name = "Калифорния", Price = 320, RestaurantId = 2, Restaurant = Restaurants[1] },
-            new Dish { Id = 6, Name = "Суши с лососем", Price = 180, RestaurantId = 2, Restaurant = Restaurants[1] },
-            new Dish { Id = 7, Name = "Шефбургер", Price = 350, RestaurantId = 3, Restaurant = Restaurants[2] },
-            new Dish { Id = 8, Name = "Чизбургер", Price = 470, RestaurantId = 3, Restaurant = Restaurants[2] },
-            new Dish { Id = 9, Name = "Картофель фри", Price = 150, RestaurantId = 3, Restaurant = Restaurants[2] },
-            new Dish { Id = 10, Name = "Цезарь", Price = 320, RestaurantId = 4, Restaurant = Restaurants[3] }
+            new Dish { Id = 1, Name = "РњР°СЂРіР°СЂРёС‚Р°", Price = 450, RestaurantId = 1, Restaurant = Restaurants[0] },
+            new Dish { Id = 2, Name = "РџРµРїРїРµСЂРѕРЅРё", Price = 550, RestaurantId = 1, Restaurant = Restaurants[0] },
+            new Dish { Id = 3, Name = "РљР°СЂР±РѕРЅР°СЂР°", Price = 420, RestaurantId = 1, Restaurant = Restaurants[0] },
+            new Dish { Id = 4, Name = "Р¤РёР»Р°РґРµР»СЊС„РёСЏ", Price = 890, RestaurantId = 2, Restaurant = Restaurants[1] },
+            new Dish { Id = 5, Name = "РљР°Р»РёС„РѕСЂРЅРёСЏ", Price = 320, RestaurantId = 2, Restaurant = Restaurants[1] },
+            new Dish { Id = 6, Name = "РЎСѓС€Рё СЃ Р»РѕСЃРѕСЃРµРј", Price = 180, RestaurantId = 2, Restaurant = Restaurants[1] },
+            new Dish { Id = 7, Name = "РЁРµС„Р±СѓСЂРіРµСЂ", Price = 350, RestaurantId = 3, Restaurant = Restaurants[2] },
+            new Dish { Id = 8, Name = "Р§РёР·Р±СѓСЂРіРµСЂ", Price = 470, RestaurantId = 3, Restaurant = Restaurants[2] },
+            new Dish { Id = 9, Name = "РљР°СЂС‚РѕС„РµР»СЊ С„СЂРё", Price = 150, RestaurantId = 3, Restaurant = Restaurants[2] },
+            new Dish { Id = 10, Name = "Р¦РµР·Р°СЂСЊ", Price = 320, RestaurantId = 4, Restaurant = Restaurants[3] }
         ];
 
         Orders =
@@ -87,7 +87,7 @@ public static class FoodDeliveryData
                 CreatedAt = new DateTime(2024, 5, 1, 12, 0, 0), 
                 Status = OrderStatus.Delivered, 
                 DeliveryFee = 150, 
-                DeliveryAddress = "ул. Ленина 1", 
+                DeliveryAddress = "СѓР». Р›РµРЅРёРЅР° 1", 
                 PaymentMethod = PaymentMethod.Card 
             },
 
@@ -101,7 +101,7 @@ public static class FoodDeliveryData
                 CourierId = 2, Courier = Couriers[1], 
                 CreatedAt = new DateTime(2024, 5, 2, 18, 30, 0), 
                 Status = OrderStatus.Delivered, DeliveryFee = 150, 
-                DeliveryAddress = "ул. Ленина 2", 
+                DeliveryAddress = "СѓР». Р›РµРЅРёРЅР° 2", 
                 PaymentMethod = PaymentMethod.Cash 
             },
 
@@ -116,7 +116,7 @@ public static class FoodDeliveryData
                 CreatedAt = new DateTime(2024, 5, 3, 19, 0, 0), 
                 Status = OrderStatus.Delivered, 
                 DeliveryFee = 200, 
-                DeliveryAddress = "ул. Ленина 3", 
+                DeliveryAddress = "СѓР». Р›РµРЅРёРЅР° 3", 
                 PaymentMethod = PaymentMethod.Online 
             },
 
@@ -131,7 +131,7 @@ public static class FoodDeliveryData
                 CreatedAt = new DateTime(2024, 5, 5, 13, 15, 0), 
                 Status = OrderStatus.Delivering, 
                 DeliveryFee = 200, 
-                DeliveryAddress = "ул. Ленина 4", 
+                DeliveryAddress = "СѓР». Р›РµРЅРёРЅР° 4", 
                 PaymentMethod = PaymentMethod.Card 
             },
 
@@ -146,7 +146,7 @@ public static class FoodDeliveryData
                 CreatedAt = new DateTime(2024, 5, 6, 20, 45, 0), 
                 Status = OrderStatus.Preparing, 
                 DeliveryFee = 100, 
-                DeliveryAddress = "ул. Ленина 5", 
+                DeliveryAddress = "СѓР». Р›РµРЅРёРЅР° 5", 
                 PaymentMethod = PaymentMethod.Cash 
             },
             
@@ -161,7 +161,7 @@ public static class FoodDeliveryData
                 CreatedAt = new DateTime(2024, 5, 8, 11, 0, 0), 
                 Status = OrderStatus.Delivered, 
                 DeliveryFee = 120, 
-                DeliveryAddress = "ул. Ленина 6", 
+                DeliveryAddress = "СѓР». Р›РµРЅРёРЅР° 6", 
                 PaymentMethod = PaymentMethod.Online 
             },
 
@@ -177,7 +177,7 @@ public static class FoodDeliveryData
                 CreatedAt = new DateTime(2024, 5, 10, 14, 20, 0),
                 Status = OrderStatus.Cancelled,
                 DeliveryFee = 90,
-                DeliveryAddress = "ул. Ленина 7",
+                DeliveryAddress = "СѓР». Р›РµРЅРёРЅР° 7",
                 PaymentMethod = PaymentMethod.Card
             },
 
@@ -193,7 +193,7 @@ public static class FoodDeliveryData
                 CreatedAt = new DateTime(2024, 5, 12, 16, 0, 0),
                 Status = OrderStatus.Delivered,
                 DeliveryFee = 130,
-                DeliveryAddress = "ул. Ленина 8",
+                DeliveryAddress = "СѓР». Р›РµРЅРёРЅР° 8",
                 PaymentMethod = PaymentMethod.Online
             },
             
@@ -209,7 +209,7 @@ public static class FoodDeliveryData
                 CreatedAt = new DateTime(2024, 5, 15, 17, 40, 0),
                 Status = OrderStatus.Delivered,
                 DeliveryFee = 170,
-                DeliveryAddress = "ул. Ленина 9",
+                DeliveryAddress = "СѓР». Р›РµРЅРёРЅР° 9",
                 PaymentMethod = PaymentMethod.Cash
             },
             new Order
@@ -224,7 +224,7 @@ public static class FoodDeliveryData
                 CreatedAt = new DateTime(2024, 5, 18, 21, 10, 0),
                 Status = OrderStatus.Delivered,
                 DeliveryFee = 250,
-                DeliveryAddress = "ул. Ленина 10",
+                DeliveryAddress = "СѓР». Р›РµРЅРёРЅР° 10",
                 PaymentMethod = PaymentMethod.Card
             },
 
@@ -240,7 +240,7 @@ public static class FoodDeliveryData
                 CreatedAt = new DateTime(2024, 5, 20, 12, 50, 0),
                 Status = OrderStatus.Created,
                 DeliveryFee = 80,
-                DeliveryAddress = "ул. Ленина 1",
+                DeliveryAddress = "СѓР». Р›РµРЅРёРЅР° 1",
                 PaymentMethod = PaymentMethod.Online
             },
 
@@ -256,7 +256,7 @@ public static class FoodDeliveryData
                 CreatedAt = new DateTime(2024, 5, 22, 19, 30, 0),
                 Status = OrderStatus.Created,
                 DeliveryFee = 110,
-                DeliveryAddress = "ул. Ленина 2",
+                DeliveryAddress = "СѓР». Р›РµРЅРёРЅР° 2",
                 PaymentMethod = PaymentMethod.Cash
             }
         ];
