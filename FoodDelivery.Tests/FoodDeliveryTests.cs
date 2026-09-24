@@ -92,7 +92,6 @@ public class FoodDeliveryTests
         var transportStats = FoodDeliveryData.Orders
             .Where(order => order.Courier != null)
             .GroupBy(order => order.Courier!.Transport)
-            .ToDictionary(key => key.Transport, value => value.Count);
             .ToDictionary(group => group.Key, group => group.Count());
 
         Assert.Equal(3, transportStats[TransportType.Bicycle]);

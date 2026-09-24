@@ -98,7 +98,8 @@ public static class FoodDeliveryData
                 Customer = Customers[1], 
                 RestaurantId = 1, 
                 Restaurant = Restaurants[0], 
-                CourierId = 2, Courier = Couriers[1], 
+                CourierId = 2, 
+                Courier = Couriers[1], 
                 CreatedAt = new DateTime(2024, 5, 2, 18, 30, 0), 
                 Status = OrderStatus.Delivered, 
                 DeliveryFee = 150, 
@@ -106,7 +107,8 @@ public static class FoodDeliveryData
                 PaymentMethod = PaymentMethod.Cash 
             },
 
-            new Order { 
+            new Order 
+            { 
                 Id = 3, 
                 CustomerId = 3, 
                 Customer = Customers[2], 
@@ -121,7 +123,8 @@ public static class FoodDeliveryData
                 PaymentMethod = PaymentMethod.Online 
             },
 
-            new Order { 
+            new Order 
+            { 
                 Id = 4, 
                 CustomerId = 4, 
                 Customer = Customers[3], 
@@ -136,7 +139,8 @@ public static class FoodDeliveryData
                 PaymentMethod = PaymentMethod.Card 
             },
 
-            new Order { 
+            new Order 
+            { 
                 Id = 5, 
                 CustomerId = 5, 
                 Customer = Customers[4], 
@@ -213,6 +217,7 @@ public static class FoodDeliveryData
                 DeliveryAddress = "ул. Ленина 9",
                 PaymentMethod = PaymentMethod.Cash
             },
+
             new Order
             {
                 Id = 10,
