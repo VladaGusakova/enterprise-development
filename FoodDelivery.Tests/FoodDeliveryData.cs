@@ -100,7 +100,8 @@ public static class FoodDeliveryData
                 Restaurant = Restaurants[0], 
                 CourierId = 2, Courier = Couriers[1], 
                 CreatedAt = new DateTime(2024, 5, 2, 18, 30, 0), 
-                Status = OrderStatus.Delivered, DeliveryFee = 150, 
+                Status = OrderStatus.Delivered, 
+                DeliveryFee = 150, 
                 DeliveryAddress = "ул. Ленина 2", 
                 PaymentMethod = PaymentMethod.Cash 
             },

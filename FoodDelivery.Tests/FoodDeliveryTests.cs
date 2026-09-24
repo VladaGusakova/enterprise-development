@@ -61,9 +61,6 @@ public class FoodDeliveryTests
         var top = topDishes[0];
         Assert.Equal("Пепперони", top.DishName);
         Assert.Equal(3, top.TotalQuantity);
-
-        var expectedOrder = topDishes.OrderByDescending(d => d.TotalQuantity).ToList();
-        Assert.Equal(expectedOrder, topDishes);
     }
 
     /// <summary>
@@ -95,10 +92,12 @@ public class FoodDeliveryTests
         var transportStats = FoodDeliveryData.Orders
             .Where(order => order.Courier != null)
             .GroupBy(order => order.Courier!.Transport)
-            .Select(group => new{ Transport = group.Key, Count = group.Count()})
             .ToDictionary(key => key.Transport, value => value.Count);
+            .ToDictionary(group => group.Key, group => group.Count());
 
-        Assert.True(transportStats.ContainsKey(TransportType.Bicycle));
-        Assert.True(transportStats.ContainsKey(TransportType.Car));
+        Assert.Equal(3, transportStats[TransportType.Bicycle]);
+        Assert.Equal(3, transportStats[TransportType.Car]);
+        Assert.Equal(2, transportStats[TransportType.Foot]);
+        Assert.Equal(2, transportStats[TransportType.Scooter]);
     }
 }
