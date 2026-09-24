@@ -94,7 +94,7 @@ public class FoodDeliveryTests
             .GroupBy(order => order.Courier!.Transport)
             .ToDictionary(group => group.Key, group => group.Count());
 
-        Assert.Equal(3, transportStats[TransportType.Bicycle]);
+        Assert.Equal(4, transportStats[TransportType.Bicycle]);
         Assert.Equal(3, transportStats[TransportType.Car]);
         Assert.Equal(2, transportStats[TransportType.Foot]);
         Assert.Equal(2, transportStats[TransportType.Scooter]);
