@@ -75,5 +75,5 @@ public class Order
     /// <summary>
     /// Стоимость заказа
     /// </summary>
-    public decimal Total => Items.Sum(item => item.Quantity * item.Price) + DeliveryFee;
+    public decimal Total => Items.Sum(item => item.Quantity * item.UnitPrice) + DeliveryFee;
 }
